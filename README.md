@@ -104,9 +104,6 @@ mandar para trabalhar, mas não reconheceu a imagem na screenshot.
 **Falso positivo** - O bot pensa que reconheceu a imagem que está procurando em um
 lugar em que esta imagem não aparece.
 
-Aqui tem uma [lista](#alguns-comportamentos-que-podem-indicar-um-falso-positivo-ou-negativo) de alguns problemas que podem ser ocasionados por falsos
-positivos e negativos.
-
 Para resolver estes problemas existem duas possibilidades, a regulagem do
 parâmetro “threshold” no arquivo config.yaml ou a substituição da imagem de
 exemplo na pasta “targets” para uma tirada no seu próprio computador:
