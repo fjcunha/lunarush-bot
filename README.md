@@ -20,24 +20,24 @@ https://www.paypal.com/donate/?business=HTKSK9AAKTRPQ&no_recurring=0&item_name=J
 
 Se você baixar pelo site é importante marcar a opção para adicionar o
 python ao PATH:
-![Check Add python to PATH](https://github.com/fjcunha/lunarush-bot/raw/ee1b3890e67bc30e372359db9ae3feebc9c928d8/readme-images/path.png)
+![Check Add python to PATH](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/path.png)
 
 ### Realize o download do codigo no formato zip, e extraia o arquivo.
 
 ### Copie o caminho até a pasta do bot:
 
-![caminho](https://github.com/fjcunha/lunarush-bot/raw/main/readme-images/address.png)
+![caminho](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/address.png)
 
 ### Abra o terminal.
 
 Aperte a tecla do windows + r e digite "cmd":
 
-![launch terminal](https://github.com/fjcunha/lunarush-bot/raw/main/readme-images/cmd.png)
+![launch terminal](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/cmd.png)
 
 ### Navegue até a pasta do bot:
 Digite o comando "cd" + caminho que você copiou:
 
-![cd](https://github.com/fjcunha/lunarush-bot/raw/main/readme-images/cd.png)
+![cd](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/cd.png)
 
 ### Instale as dependências:
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```
 
   
-![pip](https://github.com/fjcunha/lunarush-bot/raw/main/readme-images/pip.png)
+![pip](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/pip.png)
 
 ### Pronto! Agora é só iniciar o bot com o comando
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 python3 index.py
 ```
 
-![run](https://github.com/fjcunha/lunarush-bot/raw/main/readme-images/run.png)
+![run](https://github.com/fjcunha/lunarush-bot/blob/master/readme-images/run.png)
 
 
 # Como usar?
