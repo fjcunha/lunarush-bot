@@ -161,37 +161,6 @@ def positions(target, threshold=ct['default'],img = None):
     rectangles, weights = cv2.groupRectangles(rectangles, 1, 0.2)
     return rectangles
 
-def isHome(hero, buttons):
-    y = hero[1]
-
-    for (_,button_y,_,button_h) in buttons:
-        isBelow = y < (button_y + button_h)
-        isAbove = y > (button_y - button_h)
-        if isBelow and isAbove:
-            # if send-home button exists, the hero is not home
-            return False
-    return True
-
-def isWorking(bar, buttons):
-    y = bar[1]
-
-    for (_,button_y,_,button_h) in buttons:
-        isBelow = y < (button_y + button_h)
-        isAbove = y > (button_y - button_h)
-        if isBelow and isAbove:
-            return False
-    return True
-
-def goToHeroes():
-    if clickBtn(images['go-back-arrow']):
-        global login_attempts
-        login_attempts = 0
-
-    #TODO tirar o sleep quando colocar o pulling
-    time.sleep(1)
-    clickBtn(images['hero-icon'])
-    time.sleep(randint(1,3))
-
 def refreshHeroesPositions():
     logger('🔃 Refreshing Heroes Positions')
     clickBtn(images['go-back-arrow'])
@@ -290,7 +259,7 @@ def main():
                 last["boss_hunt"] = now
 
                 loggerBossHunt()
-                time.sleep(60)
+                time.sleep(7)
                 if(clickBtn(images['vs_icon'])):
                     loggerBossFight()
 

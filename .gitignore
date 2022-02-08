@@ -11,6 +11,7 @@ test.py
 /logs/boss_fight.log
 /logs/boss_hunt.log
 /logs/logger.log
+logs/
 
 # cache
 /src/__pycache__
